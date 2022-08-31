@@ -7,7 +7,7 @@ A handy package to use ansi escape sequences without having to know all possible
 From pip :
 
 ```bash
-pip install oxansi
+pip3 install oxansi
 ```
 
 From source :
