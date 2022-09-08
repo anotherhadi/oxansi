@@ -21,7 +21,11 @@ git clone https://github.com/0x68616469/oxansi/
 ```python
 from oxansi import Long as ansi
 
+# Print "/!\ ERROR : " in red
 print(f"{ansi.red}/!\\ ERROR : {ansi.reset}404 Not found")
+
+# Print "Hello World" in cyan with white background
+print(f"{ansi.background.white}{ansi.cyan}Hello World")
 ```
 
 <hr>
